@@ -1,14 +1,16 @@
 <!doctype html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/quizgamevue/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>app</title>
-    <script type="module" crossorigin src="/quizgamevue/assets/index-CePEjXAR.js"></script>
-    <link rel="stylesheet" crossorigin href="/quizgamevue/assets/index-D9udWZYX.css">
+    <title>Redirecting...</title>
+    <meta http-equiv="refresh" content="0; URL=./index.html" />
+    <script>
+      // Redirection JS pour supporter Vue Router history mode
+      const path = window.location.pathname;
+      window.location.replace(path.replace(/\/$/, '') + '/index.html');
+    </script>
   </head>
   <body>
-    <div id="app"></div>
+    Redirecting...
   </body>
 </html>
