@@ -93,4 +93,4 @@ src/
 This project is open-source and available under the [MIT License](LICENSE).
 
 ---
-Made with ❤️ by [Your Name/Github Handle]
+Made with ❤️ by Annick Fifaliana Mitia RAHARILALA
